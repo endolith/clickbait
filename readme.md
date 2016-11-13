@@ -1,1 +1,1 @@
-Why?  Because [News is bad for you](https://www.theguardian.com/media/2013/apr/12/news-is-bad-rolf-dobelli)
+Why?  Because [News is bad for you](https://www.theguardian.com/media/2013/apr/12/news-is-bad-rolf-dobelli) and bad for society.
