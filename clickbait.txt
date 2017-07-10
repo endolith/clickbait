@@ -229,7 +229,6 @@ huffingtonpost.com###related_images
 huffingtonpost.com##.three-up
 huffingtonpost.com##DIV#threeup_top_wrapper
 ibtimes.com##.bk_basic.bk_recommend
-imgur.com###top-comments
 inquisitr.com##.featured_wrap
 itworld.com##DIV.view-editor-picks
 itworld.com##DIV.view-featured-blogs
