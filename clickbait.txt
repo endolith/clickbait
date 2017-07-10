@@ -1,4 +1,4 @@
-! Title: Clickbait - distractions and clickbait filter
+! Title: Distractions and clickbait filter
 ! Last modified: 11 March 2016 20:51 UTC
 ! Homepage: https://gist.github.com/endolith/da3b2e55516c42642df4
 ! This URL: https://gist.githubusercontent.com/endolith/da3b2e55516c42642df4/raw/clickbait.txt
