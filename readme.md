@@ -8,6 +8,11 @@ Add this URL to your filter lists:
 
 https://raw.githubusercontent.com/endolith/clickbait/master/clickbait.txt
 
+# Related
+
+- https://github.com/cpeterso/clickbait-blocklist/
+- https://github.com/genediazjr/nopelist
+
 # News articles about news articles
 
 - [This Is How Your Fear and Outrage Are Being Sold for Profit](https://medium.com/@tobiasrose/the-enemy-in-our-feeds-e86511488de)
