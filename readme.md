@@ -8,6 +8,10 @@ Add this URL to your filter lists:
 
 https://raw.githubusercontent.com/endolith/clickbait/master/clickbait.txt
 
+# Disclaimer
+
+I'm not an expert at AdBlock rules, so this will most likely block things it shouldn't.  Report problems at https://github.com/endolith/clickbait/issues
+
 # Related
 
 - https://github.com/cpeterso/clickbait-blocklist/
