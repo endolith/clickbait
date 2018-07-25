@@ -1,4 +1,14 @@
-My filters for blocking all the clickbait that surrounds articles that tries to drag you into a never-ending binge.
+Filters for blocking all the clickbait that surrounds articles and tries to drag you into a never-ending binge.
+
+# How to use
+
+Should be compatible with uBlock Origin, AdBlock, etc.
+
+Add this URL to your filter lists:
+
+https://raw.githubusercontent.com/endolith/clickbait/master/clickbait.txt
+
+# News articles about news articles
 
 - [This Is How Your Fear and Outrage Are Being Sold for Profit](https://medium.com/@tobiasrose/the-enemy-in-our-feeds-e86511488de)
 - [News is bad for you – and giving up reading it will make you happier](https://www.theguardian.com/media/2013/apr/12/news-is-bad-rolf-dobelli)
