@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Version: 
 ! Title: Distractions and clickbait filter
-! Last modified: 2018-07-24
+! Last modified: 2018-07-25
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/endolith/clickbait
 ! This URL: https://raw.githubusercontent.com/endolith/clickbait/master/clickbait.txt
@@ -282,3 +282,56 @@ www.nytimes.com##.robots-nocontent.nocontent.trending-module.module
 yourtango.com##.view-must-read
 yourtango.com##[class*="view-must-see-video"]
 ~engadget.com##.blogroll
+
+
+! buzzfeed
+buzzfeed.com##.thumbstrip
+buzzfeed.com##.clearfix.xs-p2.xs-border-top-none.xs-relative.sidebar-card.card.js-sidebar-content
+buzzfeed.com###mod-related-tag-content-1
+##.ad-before-carousel  
+
+! huffpost
+##.js-right-rail-trending  
+##.yr-trending
+###bottom-most-shared
+###bottom-trending
+###extra-content
+
+! thehill.com
+##.mostpopular--content
+###block-views-articles-articles-just-in
+###block-mostpopular-1
+##.odd.block-block.block
+###block-views-hill-tv-block-video-widget
+##div.scrolling-content-item:nth-of-type(n+4)
+
+! theguardian.com
+##.js-right-most-popular
+###more-on-this-story
+theguardian.com###spotlight
+##.js-most-popular-footer
+
+! yahoo.com
+yahoo.com###SidekickWrapper-2
+yahoo.com###SidekickWrapper-4
+###YDC-Stream-Proxy
+
+! bbc.com
+###comp-top-stories-promo
+###comp-features-and-analysis
+###comp-elsewhere-on-the-bbc
+###comp-pattern-library
+
+! abcnews.go.com
+abcnews.go.com###news-feed
+abcnews.go.com###news-feed-content
+abcnews.go.com##.slick-track
+abcnews.go.com###interest-carousel
+
+! nypost.com
+##.slick-track
+##.widget_nypost_pagesix_tv_rss_widget
+##.widget_nypost_custom_widget
+##.widget_nypost_decider_rss_widget
+##.recirc--outbrain
+nypost.com###circular-widget
