@@ -335,3 +335,6 @@ abcnews.go.com###interest-carousel
 ##.widget_nypost_decider_rss_widget
 ##.recirc--outbrain
 nypost.com###circular-widget
+
+! Whitelist
+fanatical.com#@#.slick-track
