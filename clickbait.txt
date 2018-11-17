@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Version: 
 ! Title: Distractions and clickbait filter
-! Last modified: 2018-07-25
+! Last modified: 2018-11-17
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/endolith/clickbait
 ! This URL: https://raw.githubusercontent.com/endolith/clickbait/master/clickbait.txt
