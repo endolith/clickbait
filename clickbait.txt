@@ -339,6 +339,5 @@ nypost.com###circular-widget
 ! Whitelist
 elgiganten.se#@#.slick-track
 fanatical.com#@#.slick-track
-elgiganten.se#@#.slick-track
 nederob.nl#@#.featured-content
 trakt.tv#@#.trending
