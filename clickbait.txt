@@ -337,5 +337,6 @@ abcnews.go.com###interest-carousel
 nypost.com###circular-widget
 
 ! Whitelist
+elgiganten.se#@#.slick-track
 fanatical.com#@#.slick-track
 nederob.nl#@#.featured-content
