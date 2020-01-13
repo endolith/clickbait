@@ -339,3 +339,4 @@ nypost.com###circular-widget
 ! Whitelist
 fanatical.com#@#.slick-track
 nederob.nl#@#.featured-content
+trakt.tv#@#.trending
