@@ -341,3 +341,4 @@ elgiganten.se#@#.slick-track
 fanatical.com#@#.slick-track
 elgiganten.se#@#.slick-track
 nederob.nl#@#.featured-content
+trakt.tv#@#.trending
