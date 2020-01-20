@@ -329,7 +329,7 @@ abcnews.go.com##.slick-track
 abcnews.go.com###interest-carousel
 
 ! nypost.com
-##.slick-track
+nypost.com##.slick-track
 ##.widget_nypost_pagesix_tv_rss_widget
 ##.widget_nypost_custom_widget
 ##.widget_nypost_decider_rss_widget
