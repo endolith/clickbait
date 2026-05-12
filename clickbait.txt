@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 
+! Version: 1
 ! Title: Distractions and clickbait filter
-! Last modified: 2018-11-17
+! Last modified: 2026-05-12
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/endolith/clickbait
 ! This URL: https://raw.githubusercontent.com/endolith/clickbait/master/clickbait.txt
@@ -262,7 +262,7 @@ slate.com##.also_in_slate
 slate.com##.rightrailstories
 slate.com##.story-link
 slate.com##.twocolumn-stories
-taboolasyndication.com
+||taboolasyndication.com^
 taboolasyndication.com##*
 theanimalrescuesite.com###recommended
 theguardian.com###promo
@@ -288,13 +288,11 @@ yourtango.com##[class*="view-must-see-video"]
 buzzfeed.com##.thumbstrip
 buzzfeed.com##.clearfix.xs-p2.xs-border-top-none.xs-relative.sidebar-card.card.js-sidebar-content
 buzzfeed.com###mod-related-tag-content-1
-##.ad-before-carousel  
+##.ad-before-carousel
 
 ! huffpost
-##.js-right-rail-trending  
+##.js-right-rail-trending
 ##.yr-trending
-###bottom-most-shared
-###bottom-trending
 ###extra-content
 
 ! thehill.com
