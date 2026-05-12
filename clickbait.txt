@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Version: 
 ! Title: Distractions and clickbait filter
-! Last modified: 2018-11-17
+! Last modified: 2026-05-12
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/endolith/clickbait
 ! This URL: https://raw.githubusercontent.com/endolith/clickbait/master/clickbait.txt
@@ -36,6 +36,7 @@
 ###more_top_news_container
 ###most-pop-list
 ###most-popular
+###most-popular-stories
 ###most-read-content
 ###most-read-news
 ###most-shared
@@ -66,7 +67,17 @@
 ###postREMLargePromos
 ###promotionModuleContainer
 ###recent_popular
+###article-popular-this-week-header
+###divPopularOnNewserContainer
+###most-read-news-wrapper
+###most-viewed
+###most-viewed-right
+###most-viewed-ump
+###popular-articles
+###popular-posts-module
+###RECIRCULATION_RAIL
 ###related-combined-coverage
+###related-coverage
 ###related-posts
 ###related_articles
 ###right-rail-more-on
@@ -95,6 +106,7 @@
 ##.col-promoted
 ##.content-headlines-list
 ##.discovery-posts
+##.features-and-analysis__stories
 ##.dontmiss.widget
 ##.editorial-recommend
 ##.featured-content
@@ -152,11 +164,13 @@
 ##.related-content.component
 ##.related-posts
 ##.related-stories
+##.related-articles
 ##.related-video-audio
 ##.relatedNewsReports
 ##.related_posts
 ##.reporter-stories
 ##.right-most-popular-item
+##.right-most-popular__items
 ##.rss-promo
 !##.seealso  ! catches scipy docs
 ##.similar-articles
@@ -173,6 +187,41 @@
 ##.tptn_featured
 ##.trending
 ##.trending-posts-feed
+##[class*="Recirculation-"]
+##[id^="be-trending-widget"]
+##.below-entry
+##.bn-bottom-trending
+##.bn-trending
+##.bottom-recirc
+##.c-rock-list--trending
+##.component--type-recirculation
+##.end-of-content-module
+##.feed-stories-module
+##.feed-transporter-with-ads
+##.first_content_page_feed
+##.js-now-buzzing__post-link
+##.js-recommendations-column
+##.latest-popular-content
+##.latestnews
+##.leftrailmodule--popular
+##.rail-articles-scroll
+##.recirc-most-popular-sparrow-tracking
+##.recirc__content
+##.recirc__heading
+##.recirc__stories
+##.recirc__wrapper
+##.recirc-up-next
+##.RecommendedStoriesUl
+##.recirculation-section
+##.sailthruRecommendation
+##.seo-comments-recommendations
+##.story-feed-stories-module
+##.TodaysMostPopularCounterText
+##.top_stories_content_wrapper
+##.trending-reel
+##.trending-widget
+##.two-related-articles
+##.zergrow
 ##.viral
 ##.viralated
 ##.widget_time_most_popular
@@ -282,6 +331,18 @@ www.nytimes.com##.robots-nocontent.nocontent.trending-module.module
 yourtango.com##.view-must-read
 yourtango.com##[class*="view-must-see-video"]
 ~engadget.com##.blogroll
+
+! Narrow site selectors (same “rail” / recirc intent as above)
+businessinsider.com##.wide.recommended
+metro.co.uk##.trending-main
+nypost.com###recirc
+slate.com###story-1
+slate.com###story-2
+theverge.com##.c-river__shortened
+theverge.com##.p-rock
+washingtonexaminer.com##.post_roll
+www.forbes.com##[id^="article-container-"]
+www.newsweek.com###recommended
 
 
 ! buzzfeed
