@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 2
+! Version: 3
 ! Title: Distractions and clickbait filter
 ! Last modified: 2026-11-15
 ! Expires: 7 days (update frequency)
@@ -216,6 +216,7 @@ disqus.com###discovery-main
 distractify.com##.after-post_item
 edn.com###popular_tab
 engadget.com##.featured_posts
+fandom.com###WikiaRail
 foxnews.com##.section-featured
 gawker.com###post_list
 gawker.com###sitetags
@@ -236,6 +237,9 @@ ibtimes.com##.bk_basic.bk_recommend
 inquisitr.com##.featured_wrap
 itworld.com##DIV.view-editor-picks
 itworld.com##DIV.view-featured-blogs
+knowyourmeme.com###trending_photos
+knowyourmeme.com##.most-popular-videos
+knowyourmeme.com##.top-meme-entries
 ktla.com##.latest
 ktla.com##.popular
 laughingsquid.com###jp-relatedposts
