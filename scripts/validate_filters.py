@@ -32,14 +32,12 @@ def validate(path: Path) -> list[str]:
             continue
         if "$" in stripped:
             continue
-        if stripped.startswith("||") or stripped.startswith("|") or stripped.startswith("."):
-            continue
-        if stripped.startswith("http"):
+        # Network patterns never contain whitespace. This accepts anchors,
+        # wildcards, URL paths, and bare hosts (||host^, js|, example.com/ads/*)
+        # while still rejecting prose.
+        if " " not in stripped and any(c in stripped for c in "|.*^/"):
             continue
         if stripped.startswith("#"):
-            continue
-        # Bare domain / hostname blocks (common in older lists)
-        if "." in stripped and " " not in stripped and "/" not in stripped:
             continue
         errors.append(f"{i}: unrecognized rule syntax: {stripped[:80]}")
 
