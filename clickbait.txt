@@ -189,7 +189,6 @@
 ##.trending-posts-feed
 ##[class*="Recirculation-"]
 ##[id^="be-trending-widget"]
-##.below-entry
 ##.bn-bottom-trending
 ##.bn-trending
 ##.bottom-recirc
@@ -345,7 +344,6 @@ slate.com###story-2
 theverge.com##.c-river__shortened
 theverge.com##.p-rock
 washingtonexaminer.com##.post_roll
-www.forbes.com##[id^="article-container-"]
 www.newsweek.com###recommended
 
 
