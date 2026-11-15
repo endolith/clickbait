@@ -23,6 +23,6 @@ GitHub Actions runs the same validator on every PR.
 
 ## Rules
 
-- The validator rejects unrecognized lines and duplicate `[Adblock Plus x.y]` header blocks. It recognizes only that header form, and it skips every line containing `##`, so cosmetic rules are not validated.
+- The validator rejects unrecognized lines and duplicate `[Adblock Plus x.y]` header blocks. It recognizes only that header form; it skips lines containing `##` or `$`, so cosmetic rules and network options are not validated.
 - Keep `! Homepage` and license lines at top.
 - Test rules against real pages when possible (manual).
