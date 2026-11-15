@@ -15,12 +15,14 @@ Adblock Plus filter list (`clickbait.txt`). Not executable code.
 python3 scripts/validate_filters.py clickbait.txt
 ```
 
+On Windows, use `python` instead of `python3`.
+
 ## CI
 
 GitHub Actions runs the same validator on every PR.
 
 ## Rules
 
-- No duplicate `! Title` headers or duplicate option lines.
+- The validator rejects unrecognized lines and duplicate `[Adblock Plus x.y]` header blocks. It recognizes only that header form, and it skips every line containing `##`, so cosmetic rules are not validated.
 - Keep `! Homepage` and license lines at top.
 - Test rules against real pages when possible (manual).
