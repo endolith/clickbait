@@ -4,10 +4,10 @@ Adblock Plus filter list (`clickbait.txt`). Not executable code.
 
 ## Workflow
 
-1. Branch `cursor/<topic>-6eeb`.
+1. Use a topic branch; do not push directly to `master`.
 2. Filter rules must stay valid ABP syntax.
 3. Run local validation before pushing (see below).
-4. Do not merge.
+4. Do not merge pull requests; leave that to the maintainer.
 
 ## Local validation
 
