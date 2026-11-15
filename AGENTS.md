@@ -23,6 +23,14 @@ GitHub Actions runs the same validator on every PR.
 
 ## Rules
 
-- The validator rejects unrecognized lines and duplicate `[Adblock Plus x.y]` header blocks. It recognizes only that header form; it skips lines containing `##` or `$`, so cosmetic rules and network options are not validated.
 - Keep `! Homepage` and license lines at top.
 - Test rules against real pages when possible (manual).
+
+## Validator limitations
+
+`scripts/validate_filters.py` is a smoke test, not a filter parser:
+
+- It recognizes only `[Adblock Plus x.y]` header blocks, and flags duplicates of them.
+- It skips every line containing `##`, `#@`, `#?`, or `$`, so cosmetic rules and network options are not validated.
+- It skips `@@` exception rules, `/regex/` rules, and lines starting with `#`.
+- Network patterns get only a heuristic check: whitespace-free lines containing one of `| . * ^ /`.
