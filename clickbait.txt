@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 3
+! Version: 4
 ! Title: Distractions and clickbait filter
-! Last modified: 2026-11-15
+! Last modified: 2026-11-19
 ! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/endolith/clickbait
 ! This URL: https://raw.githubusercontent.com/endolith/clickbait/master/clickbait.txt
@@ -36,6 +36,7 @@
 ###more_top_news_container
 ###most-pop-list
 ###most-popular
+###most-popular-rotator
 ###most-popular-stories
 ###most-read-content
 ###most-read-news
@@ -240,6 +241,19 @@
 ##DIV.snp_most_popular_entry
 ##TR.relatedTopics
 ##[id^="outbrain_widget"]
+
+! Recirculation rails
+##.article-related
+##.component-related-content
+##.grid-view.sidebar-most-popular
+##.more-posts-thumbs
+##.popular-stories-module
+##.post-recommendations
+##.sidebar-trending
+##.story-recommendations
+##.trending-sidebar
+##.ui-popular-today
+
 9gag.com##.block-feature-cover
 aeon.co##.three.columns.thumb
 aljazeera.com##.FeaturedBox
